@@ -32,9 +32,11 @@
 [代码示例运行结果](http://www.runoob.com/try/try.php?filename=tryhtml_fieldset)
 6. 
 * ` <ul>` : `表示无序列表,支持 HTML 中的全局属性,支持 HTML 中的事件属性`
+```
 * <li> 标签`定义列表项目`
 * <li> 标签可用在`有序列表 (<ol>)` 和`无序列表 (<ul>) 中`
 * `href`是`HypertextReference`的缩写，意思是`超文本引用`
+```
 * 运行结果
 [代码示例运行结果](http://www.w3school.com.cn/tiy/t.asp?f=html_list_unordered)
 7. `<a>`
