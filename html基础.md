@@ -54,3 +54,28 @@
 9. 
 * `action` :`规定当提交表单时向何处发送表单数据`
 * `method` :`规定用于发送 form-data 的 HTTP 方法`
+
+10. `{{forloop.counter}}`
+* {{forloop.counter}} : 计数，从 1 开始
+```
+	<input type="radio" name="choice" id="choice{{forloop.counter}}" value="{{choice.id}}"> 
+```
+
+11. `跳转链接`
+```
+<a href="http://www.w3school.com.cn">W3School</a>  // >W3School 为跳转链接的name
+```
+
+12. `type="radio"`
+```
+type 属性可返回单选按钮的表单元素类型。
+对于单选按钮，该属性总是 "radio"
+
+<form>
+你更喜欢哪种颜色?<br>
+<input type="radio" name="colors" id="red">红色<br>
+<input type="radio" name="colors" id="blue">蓝色<br>
+<input type="radio" name="colors" id="green">绿色
+</form>
+<button type="button" onclick="displayResult()">显示 input 类型</button>
+```
